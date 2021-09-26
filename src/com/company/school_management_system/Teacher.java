@@ -1,4 +1,4 @@
-package com.company;
+package com.company.school_management_system;
 
 public class Teacher {
     private int id;
@@ -33,8 +33,6 @@ public class Teacher {
         salaryEarned+=salary;
         School.updateTotalMoneySpent(salary);
     }
-
-
     @Override
     public String toString() {
         return "Imię nauczyciela: " + name

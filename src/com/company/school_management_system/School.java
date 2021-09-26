@@ -1,4 +1,4 @@
-package com.company;
+package com.company.school_management_system;
 
 import java.util.List;
 
